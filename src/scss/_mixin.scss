@@ -1,0 +1,13 @@
+@mixin Poppins($fs,$fw,$lh){
+  font-size: $fs;
+  font-weight: $fw;
+  line-height: $lh;
+  font-family: "Poppins", sans-serif;
+}
+@mixin Flex($fd,$ai,$js,$gp){
+  display: flex;
+  flex-direction: $fd;
+  align-items: $ai;
+  justify-content: $js;
+  gap:$gp;
+}
