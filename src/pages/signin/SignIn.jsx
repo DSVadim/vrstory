@@ -1,8 +1,8 @@
-function Signin(){
+function SignIn(){
     return(
         <>
             <p>fdg</p>
         </>
     )
 }
-export default Signin;
+export default SignIn;

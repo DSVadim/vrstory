@@ -1,0 +1,23 @@
+@use "../../scss/reset";
+@use "../../scss/vars";
+@use "../../scss/mixin";
+.header{
+  padding: 25px 0;
+  background-color: #241C6A;
+  @include mixin.Flex(row,center,space-around,15px);
+  &-buttons{
+    display: flex;
+    gap:25px;
+    &__signin{
+      color: vars.$second-color;
+      text-decoration: none;
+    }
+    &__signup{
+      color: vars.$second-color;
+      text-decoration: none;
+    }
+  }
+}
+.Logo{
+  color: vars.$second-color;
+}

@@ -1,0 +1,15 @@
+@use "../../../scss/reset";
+@use "../../../scss/vars";
+@use "../../../scss/mixin";
+.nav{
+  &__list{
+    @include mixin.Flex(row,center,center,35px);
+    list-style-type: none;
+  }
+  &__link{
+    text-decoration: none;
+  }
+  &__item{
+    color: vars.$second-color;
+  }
+}

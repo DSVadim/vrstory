@@ -1,8 +1,8 @@
-function Signup(){
+function SignUp(){
     return(
         <>
             <p>fsdfsdfsdfsdgdfghfghjhjgkfdgfjkhjdefrgfghjnesdfvrtfvjerdxcfvtyghbjnewsfvrtfgvjb eszdcrtfvhj rdxfcdrvhjbwesfvfgvhvwsefgvbrtf rfcswe vhberg</p>
         </>
     )
 }
-export default Signup
+export default SignUp

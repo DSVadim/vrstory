@@ -1,11 +1,8 @@
-import {Link} from "react-router-dom";
-import Signin from "../signin/Signin.jsx";
-import Signup from "../signup/Signup.jsx";
+import Header from "../../components/header/Header.jsx"
 function Layout(){
     return(
         <>
-            <Link to='/Signin'>SignUp</Link>
-            <Link to='/Signup'>SignIn</Link>
+            <Header/>
         </>
     )
 }
