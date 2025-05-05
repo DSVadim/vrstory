@@ -1,0 +1,43 @@
+@use '../../../scss/vars';
+@use '../../../scss/mixin';
+@use '../../../scss/reset';
+.section1{
+  width: 100%;
+  background-color: vars.$background-color;
+
+  &-container{
+    padding: 0 25px;
+    @include mixin.Flex(row,center,center,15px);
+    &-block{
+      @include mixin.Flex(column,flex-start,flex-start,35px);
+      &__title{
+        color: vars.$second-color;
+        @include mixin.Poppins(75px,700,83px);
+      }
+      &__text{
+        color: vars.$second-color;
+        @include mixin.Poppins(22px,500,35px);
+      }
+      &-buttons{
+        @include mixin.Flex(row ,center,flex-start,25px);
+        &__btn1{
+          border:1px solid vars.$second-color;
+          color: vars.$second-color;
+          padding: 10px 25px;
+          border-radius: 20px;
+          @include mixin.Poppins(15px,700,23px);
+        }
+        &__btn2{
+          background-color: vars.$button-color;
+          color: vars.$second-color;
+          padding: 10px 25px;
+          border-radius: 20px;
+          @include mixin.Poppins(15px,700,23px);
+        }
+      }
+    }
+    &__img{
+      width: 70%;
+    }
+  }
+}

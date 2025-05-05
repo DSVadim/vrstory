@@ -11,5 +11,6 @@
   }
   &__item{
     color: vars.$second-color;
+    @include mixin.Poppins(18px ,600 , 27px);
   }
 }

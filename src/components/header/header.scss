@@ -20,4 +20,12 @@
 }
 .Logo{
   color: vars.$second-color;
+  @include mixin.Poppins(22px,600,28px);
+}
+.btn{
+  background-color: vars.$button-color;
+  color: vars.$second-color;
+  padding: 10px 25px;
+  border-radius: 20px;
+  @include mixin.Poppins(15px,700,23px);
 }
